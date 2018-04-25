@@ -1,0 +1,33 @@
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.img-holder {
+    width: 100%;
+    height: 500px;
+    -moz-box-shadow:    inset 0 0 10px #C8CAC7;
+    -webkit-box-shadow: inset 0 0 10px #C8CAC7;
+    box-shadow:         inset 0 0 10px #C8CAC7;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0px;
+}
+
+form {
+	margin: 0 auto;
+	width: 25%;
+    text-align: center;
+}
+
+#upload_progress {
+    margin: 0 auto;
+    display: none;
+}
+
+#image {
+    max-height: 100%;
+    max-width: 100%;
+}
